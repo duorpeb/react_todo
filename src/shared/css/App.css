@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Hi+Melody&family=Jua&family=Moirai+One&family=Nanum+Gothic&family=Share+Tech&family=Special+Gothic+Expanded+One&display=swap');
+
+.body{
+  /* background-color: ; */
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#tit{
+  margin-top: 50px;
+
+  width: 500px; height: 60px;
+
+/*  */
+  border: 2px solid rgb(105, 194, 142);
+  /* border: 2px solid rgb(230, 230, 37); */
+
+  /* color : rgb(211, 211, 117); */
+  
+  text-align: center;
+  text-align: middle; line-height: 60px;
+}
+
+#tit>a{ text-decoration: none; color :  rgb(105, 194, 142); }
+
+#tit>a>h2{
+  font-family: "Share Tech", sans-serif;
+  font-size: 50px; font-weight: 400;
+  font-style: normal;
+}
+
+

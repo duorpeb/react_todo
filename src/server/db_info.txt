@@ -1,0 +1,26 @@
+> 기본 정보 
+  - DB 생성 시 port 는 3306 
+  - DB 명은 react_board 
+  - user : reactUser / password : mysql 
+
+
+> <Route> 를 사용하기 위한 라이브러리 - npm i react-router-dom
+
+
+
+
+
+> MySQL 에서 생성한 DB 를 사용하기 위한 Library 설치가 필요
+   - Server Library : npm i express 
+   - DB Library : npm i mysql
+   - Asynchronous Library : npm i axios
+   - CORS Library : npm i cors 
+   - JSON Library : npm i json
+   - Auto Update : npm i nodemon 
+   - body-Parser : npm i body-parser
+
+
+> DB 를 사용하는 경우 주의 사항 
+   - DB 와 같이 사용하는 경우 npm start 로 시작하면 안됨 
+  
+   - Server 의 정보를 가지고 있는 js 파일을 생성해주어야 함 

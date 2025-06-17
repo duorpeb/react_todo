@@ -1,0 +1,157 @@
+/* 전체 div ---------------------------------------------------------------- */
+.headPrintCon{
+  margin-top: 40px; 
+  /* margin-bottom: 40px; */
+
+  width: 910px; height : 60px;
+
+  background: #91e374;
+  background: 
+    linear-gradient(90deg,rgba(145, 227, 116, 0.5) 0%, 
+                  rgba(164, 222, 188, 0.7) 50%,
+                  rgba(93, 176, 115, 0.5) 100%);
+
+  border-radius: 20px;
+
+  display : flex;
+  justify-content: right;
+  gap : 40px;
+}
+/* 전체 div fin ---------------------------------------------------------------- */
+
+
+/* category ---------------------------------------------------------------- */
+#selectCategory{
+  margin-top: 10px;
+
+  background: none;
+  border: 0.5px solid whitesmoke;
+  outline: none;
+  
+  color: rgb(78, 78, 78,0.7);
+
+  width : 105px; height : 40px;
+}
+/* category fin ---------------------------------------------------------------- */
+
+
+/* input, icon ---------------------------------------------------------------- */
+.headRight{
+  display: flex;  
+  justify-content: left;
+}
+
+.headInputDiv{
+  display: flex;
+
+  position: relative;
+}
+
+.headInput{
+  padding-left: 10px;
+  margin-top: 8px; margin-right: 30px;
+
+  width : 500px; height : 40px;
+
+  background: none;
+  border: 0.5px solid whitesmoke;
+  border-radius: 20px;
+  outline: none;
+
+  font-size: 18px; font-weight: 700;
+  color: rgb(255, 255, 255);
+}
+
+.addIcon{
+  position: absolute;
+    top : 15%; left : 85%;
+
+  cursor: pointer;
+}
+
+#sendTupleBtn{
+  padding-top: 5px;
+
+  background: none;
+  border: none;
+
+  color: white;
+
+  cursor: pointer;
+}
+/* input, icon ---------------------------------------------------------------- */
+
+
+/* calendar --------------------------------------------------------------------- */
+.headDpDiv{
+  margin-right: 20px;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.react-datepicker-ignore-onclickoutside{
+  outline: white;
+}
+
+
+.react-datepicker__input-container>input{
+  font-size: 12px;
+
+  background: none;
+  border: none;
+  outline: white;
+  color: white;
+}
+
+.react-datepicker__input-container>input>button{
+  background: none;
+  border: none;
+  color: white;
+}
+
+#choiceDate{
+  padding-top: 10px;
+
+  font-size: 10px;
+  color: white;
+}
+
+/* x 표시 */
+.react-datepicker__close-icon::after{
+  /* width: 24px; height: 24px; */
+
+  position: absolute;
+    top : 3px; right : 0;
+  background: none;
+  color : white;
+}
+/* calendar fin --------------------------------------------------------------------- */
+
+
+/* list and calendar ------------------------------------------------------------ */
+.listAndCalendar{
+  margin-top: 40px; margin-bottom: 5px;
+
+  width: 910px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+#printListBtn, #printCalBtn, #darkBtn{
+  background: none;
+
+  cursor : pointer;
+  border : none;
+}
+
+#printListBtn>a, #printCalBtn>a{
+  color : black;
+  text-decoration: none;
+}
+
+/* list and calendar fin ------------------------------------------------------------ */

@@ -1,0 +1,83 @@
+.listCon{
+  margin-bottom: 20px;
+
+  width: 910px; height : 500px;
+  
+  background: #91e374;
+  background: 
+    linear-gradient(90deg,rgba(145, 227, 116, 0.5) 0%, 
+                  rgba(164, 222, 188, 0.7) 50%,
+                  rgba(93, 176, 115, 0.5) 100%);
+
+  /* background-color: aqua; */
+}
+
+.todoDiv{
+  margin-bottom: 20px;
+
+  width: 100%;
+
+  font-weight: 700;
+  color : white;
+
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.todoDiv:nth-child(1){
+  margin-top: 20px;
+}
+
+.pagination button.active {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.vCate{
+  margin-right: 20px; margin-left: 20px;
+
+  width : 80px; height : 20px;
+
+  border : 2px double;
+  font-weight: 700;
+
+  text-align: center; line-height: 20px;
+}
+
+.vTit{
+  padding-bottom: 5px;
+
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px solid rgb(66, 60, 60); */
+}
+
+.vTit>p{
+  padding-left: 10px;
+
+  /* text-align: center;  */
+
+
+  display: inline-block;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  text-align: center;
+}
+
+.paginationDiv{
+  text-align: center;
+}
+
+#prevBtn, #curBtn, #nextBtn{
+  background: none;
+  border: none;
+
+  font-size: 16px;
+
+  color: white;
+
+  cursor: pointer;
+}

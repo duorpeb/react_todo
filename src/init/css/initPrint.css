@@ -1,0 +1,278 @@
+/* common applied css style in initPrint --------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Hi+Melody&family=Jua&family=Moirai+One&family=Nanum+Gothic&family=Share+Tech&family=Special+Gothic+Expanded+One&display=swap');
+
+/* list and calendar ------------------------------------------------------------ */
+/* .listAndCalendar{
+  margin-top: 40px; margin-bottom: 5px;
+
+  width: 910px;
+
+  display: flex;
+  justify-content: flex-end;
+}
+
+#printListBtn, #printCalBtn{
+  background: none;
+
+  cursor : pointer;
+  border : none;
+} */
+/* list and calendar fin ------------------------------------------------------------ */
+
+
+/* todayToDoPrint --------------------------------------------------------------------- */
+.todayTodoPrint{
+  margin-bottom: 40px;
+
+  width: 910px; height : 500px;
+  background: #91e374;
+  background: 
+    linear-gradient(90deg,rgba(145, 227, 116, 0.5) 0%, 
+                  rgba(164, 222, 188, 0.7) 50%,
+                  rgba(93, 176, 115, 0.5) 100%);
+  
+  border-radius: 20px;
+
+  display: flex;
+  text-align: left;
+}
+
+/*  */
+
+
+
+
+.todayTodoPrint>.tdpRight>h2, .todayTodoPrint>.tdpLeft>h2{
+
+  margin-top : 30px; margin-left: 50px;
+
+  font-family: "Hi Melody", sans-serif;
+  font-weight: 400; font-size: 30px; font-weight: 700;
+  font-style: normal;
+
+  color : white
+}
+
+.todayTodoPrint>.tdpRight, .todayTodoPrint>.tdpLeft{
+  width : 50%;
+
+  /* 브라우저 별로 스크롤바를 감추는 속성이 다름 */
+  /* FireFox  */
+  overflow-y: scroll; scrollbar-width: none;
+
+  /* IE 10+, -ms-overflow-style : none; */
+  /* WebKit 계열 (Chrome, Safari, Opera), 
+  .container::-webkit-scrollbar{ display : none; }
+  */
+}
+
+.tdpRight::-webkit-scrollbar,.tdpLeft::-webkit-scrollbar{ display : none; }
+
+
+  /* tdpRight - 오늘의 일정 ---------------------------------------------------------------- */
+  .todayTodoPrint>.tdpRight{
+    border-right: 1px solid white ;
+  }
+
+  .tdpRight>h2, .tdpLeft>h2{
+    margin-bottom: 20px;
+  }
+
+  .tdSchContDiv{
+    margin-bottom: 15px;
+
+    /* border-bottom: 1px solid white; */
+
+    display : flex;
+    justify-content: left;
+  }
+
+  .tdBadge{
+    margin-left: 30px; margin-right : 15px;
+
+    width : 50px; height : 20px;
+
+    border : 2px double;
+
+    text-align: center;
+  }
+
+  .tdBadge>a{ 
+    font-size: 12px; font-weight: 700;
+
+    text-decoration: none;
+  }
+
+  .tdTxt{
+    display : flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .tdTxt>a{
+    /* border-bottom: 1px solid white; */
+    padding-right: 10px;
+
+    font-weight: 700;
+    color : white;
+
+    text-align: center; line-height: 0px;
+
+    text-decoration: none;
+  }
+
+  #tdTxtBtn{
+    background: none;
+    border: none;
+    color : white;
+
+    cursor: pointer;
+  }
+
+  /* tdpRight - 오늘의 일정 fin ---------------------------------------------------------------- */
+
+
+  /* tdpLeft - 해야 할 일 ---------------------------------------------------------------------- */
+  .mustToDoDiv{
+    display : flex;
+  }
+
+  .mtdTitDiv{
+    /* margin 의 순서 : 상우하좌 (시계방향) */
+    margin-top: 10px;  margin-bottom: 20px; margin-left: 30px;
+
+    height : 20px;
+
+    background-color: #60d8a020; 
+    border: 2px double #60d8a0;
+
+    text-align: center; line-height: 20px;
+  }
+
+  .mtdTitDiv>a{
+    font-size: 14px; font-weight: 700;
+    color : #60d8a0;
+    text-decoration: none;
+  }
+
+  .mtdContDiv{
+    margin-left : 30px;
+
+    display: flex;
+    align-items: center;
+  }
+
+  .mtdContDiv>a{
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+  }
+
+  #mtdContBtn{
+    background: none;
+    border: none;
+    color : white;
+
+    cursor: pointer;
+  }
+
+  /* .mtd */
+  /* tdpLeft - 해야 할 일 fin ---------------------------------------------------------------------- */
+
+
+
+/* todayToDoPrint --------------------------------------------------------------------- */
+
+
+/* detailCategory ---------------------------------------------------------------------- */
+.initPrintFirLine{
+  /* margin-left: 25px; */
+
+  width: 910px;
+
+  /* margin-bottom: 25px; */
+
+  display: flex;
+  justify-content: left;
+}
+
+.categoryTit{
+  width : 240px; height : 50px;
+
+  border: 2px solid rgb(105, 194, 142);
+  border-bottom: none;
+  
+  font-family: "Share Tech", sans-serif;
+  font-size: 18px; font-weight: 700;
+  
+  color :  rgb(105, 194, 142);
+
+  text-align: center;
+
+  line-height: 50px;
+}
+
+.allCategory{
+  margin-bottom: 20px;
+
+  width: 906px;
+
+  border : 2px solid rgb(105, 194, 142);
+}
+
+.initPrintSecLine{ margin-top: 20px;}
+
+.initPrintSecLine, .initPrintThiLine, .initPrintFourLine, .initPrintFifLine{
+  margin-left: 30px; margin-bottom: 50px;
+
+  width: 910px;
+  
+  display: flex;
+  justify-content: left; 
+  gap : 110px;
+  /* flex-wrap: wrap; */
+}
+
+.studyDiv, .testDiv, .meetDiv, .taskDiv, .tripDiv, .exerciseDiv, .hobbyDiv, .mustDiv, .wishDiv{
+  width : 200px; height : 80px;
+
+  font-family: "Hi Melody", sans-serif;
+  font-weight: 400; font-size: 36px;
+  /* font-style: normal; */
+
+  line-height: 80px;
+
+  text-align: center;
+}
+
+
+.studyDiv{ background-color: #de838320; border: 4px double #de8383; }
+.studyDiv>a{ color : #de8383; text-decoration: none; }
+
+
+.testDiv{ background-color: #f5BE2620; border: 4px double #f5BE26; }
+.testDiv>a{ color : #f5BE26; text-decoration: none; }
+
+.meetDiv{ background-color: #83b4de20; border: 4px double #83b4de; }
+.meetDiv>a{ color : #83b4de; text-decoration: none; }
+
+.taskDiv{ background-color: #a391d220; border: 4px double #a391d2; }
+.taskDiv>a{ color : #a391d2; text-decoration: none; }
+
+.tripDiv{ background-color: #9dd3d320; border: 4px double #9dd3d3; }
+.tripDiv>a{ color : #9dd3d3; text-decoration: none; }
+
+.exerciseDiv{ background-color: #f3600b20; border: 4px double #f3600b; }
+.exerciseDiv>a{ color : #f3600b; text-decoration: none; }
+
+
+.hobbyDiv{ background-color: #c27fbb20; border : 4px double #c27fbb; }
+.hobbyDiv>a{ color : #c27fbb; text-decoration: none; }
+
+.mustDiv{ background-color: #60d8a020; border: 4px double #60d8a0; }
+.mustDiv>a{ color : #60d8a0; text-decoration: none; }
+
+.wishDiv{ background-color: #e0227b20; border : 4px double #e0227b; }
+.wishDiv>a{ color : #e0227b; text-decoration: none; }
+
+/* detailCategory fin ---------------------------------------------------------------------- */

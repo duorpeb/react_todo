@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&family=Hi+Melody&family=Jua&family=Moirai+One&family=Nanum+Gothic&family=Share+Tech&family=Special+Gothic+Expanded+One&display=swap');
+
+.calendarCon{
+  margin-bottom: 20px;
+
+  width: 910px; height : 500px;
+  
+  background: #91e374;
+  background: 
+    linear-gradient(90deg,rgba(145, 227, 116, 0.5) 0%, 
+                  rgba(164, 222, 188, 0.7) 50%,
+                  rgba(93, 176, 115, 0.5) 100%);
+
+  /* background-color: aqua; */
+}
+
+
+/* big-calendar ------------------------------------------------------------------------------- */
+/* 달력 전체 div */
+.rbc-calendar{
+  width: 910px;
+
+  background: #91e374;
+  background: 
+    linear-gradient(90deg,rgba(145, 227, 116, 0.4) 0%, 
+                  rgba(164, 222, 188, 0.5) 50%,
+                  rgba(93, 176, 115, 0.4) 100%);
+
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+}
+
+/* 최상단 연,월,일 표시 부분 */
+
+
+/* May 2025 (월, 년도 표시) */
+.rbc-toolbar-label{
+  font-size: 26px; font-weight: 700;
+  color: white;
+}
+
+.rbc-month-header{
+  border-top: 3px solid white;
+  border-right: 3px solid white;
+  border-left: 3px solid white;
+}
+
+/* 요일 표시  */
+.rbc-header{
+  height : 50px;
+
+  color : white;
+
+  line-height: 50px;
+}
+
+.rbc-btn-group>button{ display : none; }
+
+/* 일자의 숫자 */
+.rbc-button-link{
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 13px; font-weight: 700; 
+
+  color: rgb(29, 29, 29);
+}
+
+/* 일자 셀  */
+.rbc-day-bg{
+  border: 3px solid white;
+  border-collapse: collapse;
+}
+
+/* .rbc-date-cell{
+  font-size: 25px; font-weight: 700;
+  color: white;
+} */
+
+/* Tuple */
+.rbc-event-content{
+  cursor : default;
+}
+
+/* big-calendar fin ------------------------------------------------------------------------------- */

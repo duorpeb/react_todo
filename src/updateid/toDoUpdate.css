@@ -1,0 +1,153 @@
+/* common  -------------------------------------------------------------------------------- */
+.cateDiv, .titDiv, .calDiv, .contDiv{
+  padding-left: 20px; 
+  margin-bottom: 30px; 
+
+  display: flex;
+}
+/* common  -------------------------------------------------------------------------------- */
+
+
+/* update container div -------------------------------------------------------------------------------- */
+.modifyCon{
+  margin-bottom: 20px;
+
+  width : 910px;
+
+  border : 3px solid #91e374;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  /* align-items: center; */
+}
+/* update container div fin -------------------------------------------------------------------------------- */
+
+
+/* 할 일 수정 div -------------------------------------------------------------------------------- */
+.headerColorDiv{
+  padding-left: 20px;
+
+  height: 50px;
+
+  font-size: 20px; font-weight: 700;
+  color: white;
+
+  line-height: 50px;
+
+  background: #91e374;
+  background: 
+    linear-gradient(90deg,rgba(145, 227, 116, 0.5) 0%, 
+                  rgba(164, 222, 188, 0.7) 50%,
+                  rgba(93, 176, 115, 0.5) 100%);
+}
+/* 할 일 수정 div fin -------------------------------------------------------------------------------- */
+
+
+/* Category Div ----------------------------------------------------------------------------------------- */
+.cateDiv{
+  padding-left: 20px; 
+  margin-top : 20px; 
+
+  height: 50px;
+
+  line-height: 50px;
+
+  align-items: center;
+}
+
+.cateDivTxt{
+  margin-right: 27px;
+}
+
+.cateSelecDiv>select{
+  width: 200px; height : 40px;
+
+  border: 2px solid rgb(0,0,0,0.4);
+}
+/* Category Div  fin ----------------------------------------------------------------------------------------- */
+
+
+/* Title Div ----------------------------------------------------------------------------------------- */
+.TitDiv{
+  /* align-items: center; */
+}
+
+.titDivTxt{
+  margin-right: 90px;
+
+  line-height: 35px;
+}
+
+.titDiv>input{
+  width : 500px; height: 30px;
+
+  border: 2px solid rgb(0,0,0,0.4);
+
+  font-size: 16px;
+}
+/* Title Div fin ----------------------------------------------------------------------------------------- */
+
+
+
+/* Calendar Div ----------------------------------------------------------------------------------------- */
+.calDivTxt{
+  margin-right: 57px;
+}
+
+.react-datepicker-wrapper{
+  border: 2px solid rgb(0,0,0,0.4);
+}
+
+#choiceDateInUpdate{
+  padding-top: 10px;
+
+  font-size: 10px;
+  color: black;
+}
+
+
+
+/* Calendar Div fin ----------------------------------------------------------------------------------------- */
+
+
+
+/* Contents Div ----------------------------------------------------------------------------------------- */
+.contDivTit{
+  width : 120px; height : 400px;
+  
+  line-height: 400px;
+}
+
+.contDivTxt{
+  width : 75%; height : 400px;
+
+  border: none;
+}
+
+.contDivTxtInput{
+  width : 100%; height: 100%;
+
+  border: 2px solid rgb(0,0,0,0.4);
+
+  font-size: 15px; font-weight: 700;
+
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+/* Contents Div fin ----------------------------------------------------------------------------------------- */
+
+
+
+
+/* enroll Btn Div ----------------------------------------------------------------------------------------- */
+.enrollBtnDiv{ margin-bottom : 20px; text-align : center;}
+
+.enrollBtnDiv>button{
+  background: none;
+  border: none;
+
+  cursor: pointer;
+}
+/* enroll Btn Div fin ----------------------------------------------------------------------------------------- */
