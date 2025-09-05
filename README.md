@@ -1,4 +1,4 @@
-> # 💡 To Do App - React 를 활용한 To do List 
+> # 💡 To Do App - To do List 프로그램 (React 개인 프로젝트) 
 
 <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=To-do-App">
 
