@@ -3,6 +3,12 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=300&color=gradient&text=To-do-App">
 
 
+> # 💡 프로젝트 소개 
+🖥️ React 를 활용 (create-react-app 패키지를 통해 프로젝트 생성) 하여 To Do List 프로그램을 만들어보았습니다.
+
+<br><br><br><br><br>
+
+
 ### 🖥️ 스크린샷
 
 > 📗 메인 페이지 - 상단 : 일정이 없는 경우 <br><br>
@@ -34,11 +40,6 @@
 
 <br><br><br><br><br>
 
-
-> # 💡 프로젝트 소개 
-🖥️ React 를 활용 (create-react-app 패키지를 통해 프로젝트 생성) 하여 To Do List 프로그램을 만들어보았습니다.
-
-<br><br><br><br><br>
 
 
 > # 💡개발 기간 및 팀 규모 
